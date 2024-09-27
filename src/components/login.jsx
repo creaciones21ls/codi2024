@@ -11,7 +11,7 @@ const Login = ({ validateUser }) => {
         if (user === '' || pass === '') {
             setError(true)
             return
-        } else if (user == 'limon' && pass == '0120') {
+        } else if (user == 'limon' && pass == '0102') {
             validateUser({ isPermitted: true })
         } else {
             setError(false)
