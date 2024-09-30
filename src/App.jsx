@@ -1,12 +1,12 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { HomeAPI } from './routes/home'
+import { HomeAPI, action as actionHome, loader as loaderHome } from './routes/home'
 
 const App = () => {
 
 
     const router = createBrowserRouter([
         {
-            path: "/", element: <HomeAPI />,
+            path: "/", element: <HomeAPI />, action: actionHome, loader: loaderHome,
         },
     ])
 

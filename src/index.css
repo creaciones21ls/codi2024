@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 
 :root {
@@ -27,6 +27,16 @@ body {
     margin: 0;
     padding: 0;
     font-size: 63.3%;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: "Silkscreen", sans-serif;
     box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    height: 100vb;
+    background-color: aqua;
+
+}
+
+input {
+    font-weight: bold;
+    font-size: 1.5em;
 }
