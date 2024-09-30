@@ -3,7 +3,7 @@ import localforage from "localforage"
 
 export const datosApi = async (buscar) => {
 
-    const endpoint = `https://api.giphy.com/v1/gifs/random?api_key=uXuLNRCvuojVgPX5XicGQcyPAAWgEOCV&tag=${buscar}&rating=g`
+
 
     const respuestaApi = await fetch(endpoint)
     const datos = await respuestaApi.json()
